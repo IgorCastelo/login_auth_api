@@ -15,7 +15,7 @@ import lombok.Setter;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    public Long id;
+    public String id;
     public String name;
     public String email;
     public String password;
